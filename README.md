@@ -1,6 +1,6 @@
 # The sl(2) weight system at c = -3/32 extends to a graph 4-invariant
 
-Deep Bhattacharjee. Final revision, 26 October 2026.
+Deep Bhattacharjee and Ushashi Bhattacharya. Final revision, 26 October 2026.
 
 The paper proves the conjecture of Fomichev, Karev, Pavutnitskiy and Usanov
 (arXiv:2607.24217, Section 4): the specialisation of the sl(2) weight system
@@ -38,13 +38,16 @@ Each release carries the paper files of `dist/`.
 
 | Release | DOI |
 | --- | --- |
-| v1.0.0 | to be recorded |
+| v1.0.0 | superseded by v1.0.1 (authors listed incompletely) |
+| v1.0.1 | to be recorded |
 
-## Author
+## Authors
 
 Deep Bhattacharjee, Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India; Formerly, University of Calcutta, Senate House, 87/1 College Street, Kolkata 700073, West Bengal, India.
 Emails: d.bhattacharjee@erl-forschung.de, itsdeep@live.com, egspl@proton.me (for questions about this repository).
 ORCID: 0000-0003-0466-750X.
+
+Ushashi Bhattacharya, Formerly, National Taiwan University, Taipei 106319, Taiwan. Email: rai.bhattacharya.in@gmail.com. ORCID: 0009-0002-2254-3914.
 
 ## Licence
 
