@@ -17,7 +17,7 @@ versions are archived on Zenodo under the concept DOI
 
 ## Layout
 
-- `paper/main.tex`, `paper/figures/`: the LaTeX source and the three figures; `paper/main.pdf` the compiled paper (13 pages, single column).
+- `paper/main.tex`, `paper/figures/`: the LaTeX source and the three figures; `paper/main.pdf` the compiled paper (12 pages, amsart, single column).
 - `dist/`: the paper as `Sl2WeightSystemAtMinus3Over32_final2.pdf`, its source zip and the arXiv tarball.
 - `checks/python/check.py`: exact rational check of the theorem on all chord diagrams with at most 5 chords and of the four-term relation on small graphs.
 - `checks/python/proof_steps.py`: exact check of each identity of Sections 3 to 5 on small cases.

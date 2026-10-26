@@ -1,4 +1,4 @@
-Deep Bhattacharjee and Ushashi Bhattacharya, *The sl(2) weight system at c = -3/32 extends to a graph 4-invariant*. Final revision, single column, 13 pages.
+Deep Bhattacharjee and Ushashi Bhattacharya, *The sl(2) weight system at c = -3/32 extends to a graph 4-invariant*. Final revision, single column (amsart), 12 pages.
 
 The paper proves the conjecture of Fomichev, Karev, Pavutnitskiy and Usanov (arXiv:2607.24217,
 Section 4): the specialisation of the sl(2) weight system at c = -3/32 extends to a 4-invariant

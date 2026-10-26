@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[11pt,a4paper,reqno]{amsart}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -8,6 +8,7 @@
 \usepackage[margin=28mm]{geometry}
 \usepackage{xurl}
 \usepackage[hidelinks]{hyperref}
+\usepackage{orcidlink}
 \usepackage{microtype}
 
 \newtheorem{theorem}{Theorem}[section]
@@ -33,42 +34,40 @@
 \newcommand{\dd}{\partial}
 \newcommand{\binomset}[2]{\tbinom{#1}{#2}}
 
-\title{The $\mathfrak{sl}(2)$ weight system at $c=-3/32$ extends to a graph 4-invariant}
+\title[The $\mathfrak{sl}(2)$ weight system at $c=-3/32$]{The $\mathfrak{sl}(2)$ weight system at $c=-3/32$ extends to a graph 4-invariant}
 
-\author{Deep Bhattacharjee\thanks{Corresponding author. Email: \href{mailto:d.bhattacharjee@erl-forschung.de}{d.bhattacharjee@erl-forschung.de}, \href{mailto:itsdeep@live.com}{itsdeep@live.com}, \href{mailto:egspl@proton.me}{egspl@proton.me}. ORCID: \href{https://orcid.org/0000-0003-0466-750X}{0000-0003-0466-750X}.}\\[2pt]
-\normalsize Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL),\\
-\normalsize Bhubaneswar, Odisha 751030, India\\[1pt]
-\normalsize Formerly, University of Calcutta, Senate House, 87/1 College Street,\\
-\normalsize Kolkata 700073, West Bengal, India
-\and
-Ushashi Bhattacharya\thanks{Email: \href{mailto:rai.bhattacharya.in@gmail.com}{rai.bhattacharya.in@gmail.com}. ORCID: \href{https://orcid.org/0009-0002-2254-3914}{0009-0002-2254-3914}.}\\[2pt]
-\normalsize Formerly, National Taiwan University,\\
-\normalsize Taipei 106319, Taiwan}
+\author{Deep Bhattacharjee\,\orcidlink{0000-0003-0466-750X}}
+\address{Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India}
+\address{Formerly, University of Calcutta, Senate House, 87/1 College Street, Kolkata 700073, West Bengal, India}
+\email{d.bhattacharjee@erl-forschung.de}
+\email{itsdeep@live.com}
+\email{egspl@proton.me}
+\thanks{\sloppy Corresponding author: Deep Bhattacharjee. Email: \href{mailto:d.bhattacharjee@erl-forschung.de}{d.bhattacharjee@erl-forschung.de}, \href{mailto:itsdeep@live.com}{itsdeep@live.com}, \href{mailto:egspl@proton.me}{egspl@proton.me}; ORCID \href{https://orcid.org/0000-0003-0466-750X}{0000-0003-0466-750X}.}
+\author{Ushashi Bhattacharya\,\orcidlink{0009-0002-2254-3914}}
+\address{Formerly, National Taiwan University, Taipei 106319, Taiwan}
+\email{rai.bhattacharya.in@gmail.com}
+\thanks{Ushashi Bhattacharya: email \href{mailto:rai.bhattacharya.in@gmail.com}{rai.bhattacharya.in@gmail.com}; ORCID \href{https://orcid.org/0009-0002-2254-3914}{0009-0002-2254-3914}.}
 
+\subjclass[2020]{05C31; 57K16; 17B10; 15A66}
+\keywords{weight system; intersection graph; four-term relation; Clifford algebra}
 \date{26 October 2026}
 
 \begin{document}
-
-\maketitle
 
 \begin{abstract}
 \itshape
 A weight system is a function on chord diagrams that satisfies the four-term relations. The Lie algebra $\mathfrak{sl}(2)$ gives a weight system with values in the polynomial ring $\mathbb{Q}[c]$, and its value on a chord diagram depends only on the intersection graph of the diagram. Fomichev, Karev, Pavutnitskiy and Usanov showed that this weight system does not come from a function on graphs, and that a specialisation at a value $c=c_0$ can come from one only for $c_0=0$, $3/8$, $1$ or $-3/32$. The first three values were settled before. They conjectured that the last one, $c=-3/32$, which is the eigenvalue of the Casimir element on the oscillator representation, also extends. We prove this. The extension is the function $\xi(G)=(-32)^{-n}S_G(-2)$, where $G$ is a graph with $n$ vertices and $S_G(N)$ is a signed count of the maps that send each vertex of $G$ to a two-element subset of $\{1,\dots,N\}$: a map counts with the sign $-1$ for every edge whose two endpoints are sent to subsets meeting in exactly one element. The count is a polynomial in $N$, so its value at $N=-2$ makes sense. The four-term relation for $\xi$ is proved by an involution on these maps. The identity with the weight system is proved by letting the chord diagram act on Verma modules, then on the oscillator representation, where a supertrace on the Weyl algebra turns the value into a sum over perfect matchings, and finally by reading the same sum as a trace in a Clifford algebra on $N$ generators.
 \end{abstract}
 
-\medskip
-\noindent\textbf{Keywords.} weight system; intersection graph; four-term relation; Clifford algebra.
+\maketitle
 
-\smallskip
-\noindent\textbf{MSC 2020.} 05C31; 57K16; 17B10; 15A66.
+
 
 \medskip
-\begin{center}
-\begin{minipage}{0.92\textwidth}
+\begin{quote}
 \small\sloppy
 \noindent\textbf{Note.} An earlier and incomplete version of this paper appeared on Hexagon, where it is the preprint \texttt{hexagon:2610.00320}, available at \url{https://hexagonmath.org/2610.00320}. That version relied on a computer verification and on numerical checks for part of its evidence, left the faithfulness of the Weyl algebra on polynomials without proof, and did not state the scope of the construction. This version is complete and self-contained: every step is proved by hand, Lemma~\ref{lem:faithful} supplies the missing normal form argument, Remark~\ref{rem:scope} states exactly what is proved, the dependence on unrefereed sources is reduced to the statement of the conjecture itself, and no statement rests on a computer. The earlier versions and their checking programs are archived on Zenodo under the concept DOI \href{https://doi.org/10.5281/zenodo.23312529}{10.5281/zenodo.23312529} (versions \href{https://doi.org/10.5281/zenodo.23312664}{10.5281/zenodo.23312664}, \href{https://doi.org/10.5281/zenodo.23384025}{10.5281/zenodo.23384025}, \href{https://doi.org/10.5281/zenodo.23541142}{10.5281/zenodo.23541142} and \href{https://doi.org/10.5281/zenodo.23630528}{10.5281/zenodo.23630528}). The source of this revision is in the repository \url{https://github.com/creelie/Paper_7}, release \texttt{v1.0.1}, archived on Zenodo as \href{https://doi.org/10.5281/zenodo.23658136}{10.5281/zenodo.23658136} (concept DOI \href{https://doi.org/10.5281/zenodo.23658071}{10.5281/zenodo.23658071}).
-\end{minipage}
-\end{center}
+\end{quote}
 
 \section{Introduction}\label{sec:intro}
 
