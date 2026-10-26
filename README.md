@@ -34,12 +34,12 @@ Requirements: python3, julia, a C compiler and a C++17 compiler.
 ## Releases
 
 Releases are published by the workflow `release.yml` from the Actions tab.
-Each release carries the paper files of `dist/`.
+Each release carries the paper files of `dist/`. The concept DOI of all releases is [10.5281/zenodo.23658071](https://doi.org/10.5281/zenodo.23658071).
 
 | Release | DOI |
 | --- | --- |
 | v1.0.0 | superseded by v1.0.1 (authors listed incompletely) |
-| v1.0.1 | to be recorded |
+| v1.0.1 | [10.5281/zenodo.23658136](https://doi.org/10.5281/zenodo.23658136) |
 
 ## Authors
 
