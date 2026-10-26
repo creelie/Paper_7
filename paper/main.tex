@@ -35,11 +35,15 @@
 
 \title{The $\mathfrak{sl}(2)$ weight system at $c=-3/32$ extends to a graph 4-invariant}
 
-\author{Deep Bhattacharjee\thanks{Corresponding author. Email: \href{mailto:d.bhattacharjee@erl-forschung.de}{d.bhattacharjee@erl-forschung.de}, \href{mailto:itsdeep@live.com}{itsdeep@live.com}, \href{mailto:egspl@proton.me}{egspl@proton.me}. ORCID: \href{https://orcid.org/0000-0003-0466-750X}{0000-0003-0466-750X}.}\\[4pt]
+\author{Deep Bhattacharjee\thanks{Corresponding author. Email: \href{mailto:d.bhattacharjee@erl-forschung.de}{d.bhattacharjee@erl-forschung.de}, \href{mailto:itsdeep@live.com}{itsdeep@live.com}, \href{mailto:egspl@proton.me}{egspl@proton.me}. ORCID: \href{https://orcid.org/0000-0003-0466-750X}{0000-0003-0466-750X}.}\\[2pt]
 \normalsize Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL),\\
-\normalsize Bhubaneswar, Odisha 751030, India\\[2pt]
+\normalsize Bhubaneswar, Odisha 751030, India\\[1pt]
 \normalsize Formerly, University of Calcutta, Senate House, 87/1 College Street,\\
-\normalsize Kolkata 700073, West Bengal, India}
+\normalsize Kolkata 700073, West Bengal, India
+\and
+Ushashi Bhattacharya\thanks{Email: \href{mailto:rai.bhattacharya.in@gmail.com}{rai.bhattacharya.in@gmail.com}. ORCID: \href{https://orcid.org/0009-0002-2254-3914}{0009-0002-2254-3914}.}\\[2pt]
+\normalsize Formerly, National Taiwan University,\\
+\normalsize Taipei 106319, Taiwan}
 
 \date{26 October 2026}
 
@@ -62,7 +66,7 @@ A weight system is a function on chord diagrams that satisfies the four-term rel
 \begin{center}
 \begin{minipage}{0.92\textwidth}
 \small\sloppy
-\noindent\textbf{Note.} An earlier and incomplete version of this paper appeared on Hexagon, where it is the preprint \texttt{hexagon:2610.00320}, available at \url{https://hexagonmath.org/2610.00320}. That version relied on a computer verification and on numerical checks for part of its evidence, left the faithfulness of the Weyl algebra on polynomials without proof, and did not state the scope of the construction. This version is complete and self-contained: every step is proved by hand, Lemma~\ref{lem:faithful} supplies the missing normal form argument, Remark~\ref{rem:scope} states exactly what is proved, the dependence on unrefereed sources is reduced to the statement of the conjecture itself, and no statement rests on a computer. The earlier versions and their checking programs are archived on Zenodo under the concept DOI \href{https://doi.org/10.5281/zenodo.23312529}{10.5281/zenodo.23312529} (versions \href{https://doi.org/10.5281/zenodo.23312664}{10.5281/zenodo.23312664}, \href{https://doi.org/10.5281/zenodo.23384025}{10.5281/zenodo.23384025}, \href{https://doi.org/10.5281/zenodo.23541142}{10.5281/zenodo.23541142} and \href{https://doi.org/10.5281/zenodo.23630528}{10.5281/zenodo.23630528}). The source of this revision is in the repository \url{https://github.com/creelie/Paper_7}, release \texttt{v1.0.0}.
+\noindent\textbf{Note.} An earlier and incomplete version of this paper appeared on Hexagon, where it is the preprint \texttt{hexagon:2610.00320}, available at \url{https://hexagonmath.org/2610.00320}. That version relied on a computer verification and on numerical checks for part of its evidence, left the faithfulness of the Weyl algebra on polynomials without proof, and did not state the scope of the construction. This version is complete and self-contained: every step is proved by hand, Lemma~\ref{lem:faithful} supplies the missing normal form argument, Remark~\ref{rem:scope} states exactly what is proved, the dependence on unrefereed sources is reduced to the statement of the conjecture itself, and no statement rests on a computer. The earlier versions and their checking programs are archived on Zenodo under the concept DOI \href{https://doi.org/10.5281/zenodo.23312529}{10.5281/zenodo.23312529} (versions \href{https://doi.org/10.5281/zenodo.23312664}{10.5281/zenodo.23312664}, \href{https://doi.org/10.5281/zenodo.23384025}{10.5281/zenodo.23384025}, \href{https://doi.org/10.5281/zenodo.23541142}{10.5281/zenodo.23541142} and \href{https://doi.org/10.5281/zenodo.23630528}{10.5281/zenodo.23630528}). The source of this revision is in the repository \url{https://github.com/creelie/Paper_7}, release \texttt{v1.0.1}.
 \end{minipage}
 \end{center}
 
@@ -113,7 +117,7 @@ For one vertex, $S_{K_1}(N)=\binom N2$ and $\xi(K_1)=3/(-32)=-\frac{3}{32}$, the
 
 The proof of (b) is an involution on assignments (Section~\ref{sec:proof}). For (c) we let the element $C_D\in U(\slt)$ of a chord diagram act on the Verma module of highest weight $\mu$; it acts by a polynomial $\lambda_D(\mu)$, and $w_D(-\frac{3}{32})=\lambda_D(-\frac12)$ (Section~\ref{sec:verma}). The oscillator representation on $\Q[z]$ is the sum of the Verma modules of highest weights $-\frac12$ and $-\frac32$, so the image of $C_D$ in the Weyl algebra is the scalar $\lambda_D(-\frac12)$. A supertrace on the Weyl algebra with a Wick formula writes this scalar as a sum over perfect matchings, in which every cycle contributes a factor $-2$ (Sections~\ref{sec:osc} and~\ref{sec:matching}). With $N$ in place of $-2$ the same sum is a trace in the Clifford algebra on $N$ generators, and that trace equals $4^nS_\Gamma(N)$ (Section~\ref{sec:clifford}). Figure~\ref{fig:flow} shows the two halves of the argument.\footnote{The step from $N$ to $-2$ is the point of the proof. The Clifford algebra on $N$ generators is a quotient of the Weyl algebra's fermionic counterpart; the Weyl algebra itself behaves like a Clifford algebra on $-2$ generators, because in the Wick formula of Lemma~\ref{lem:tau}(c) every closed cycle of contractions carries the factor $-2$ instead of $N$. This is the familiar sign that supertraces of bosonic systems carry negative dimensions. Nothing in the proof uses this heuristic; the identity is proved as an identity of polynomials in $N$ and then evaluated at $-2$.}
 
-The combinatorial objects of the proof, chord diagrams with their legs, perfect matchings, their cycle and crossing counts, are finite and the proof uses nothing beyond linear algebra over $\Q$ and counting. Related constructions in which a finite complex or a group action is studied through counts of this kind appear in the author's earlier work \cite{Bha22a,Bha22b,BB26}.
+The combinatorial objects of the proof, chord diagrams with their legs, perfect matchings, their cycle and crossing counts, are finite and the proof uses nothing beyond linear algebra over $\Q$ and counting. Related constructions in which a finite complex or a group action is studied through counts of this kind appear in the authors' earlier work \cite{Bha22a,Bha22b,BB26}.
 
 \begin{figure}[ht]
 \centering
