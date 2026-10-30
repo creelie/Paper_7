@@ -52,7 +52,7 @@ Each release carries the paper files of `dist/`. The concept DOI of all releases
 | v1.0.0 | superseded by v1.0.1 (authors listed incompletely) |
 | v1.0.1 | [10.5281/zenodo.23658136](https://doi.org/10.5281/zenodo.23658136) |
 | v1.0.2 | assigned on publication |
-| v1.1.0 (this revision) | assigned on publication |
+| v1.1.0 (this revision) | [10.5281/zenodo.23791376](https://doi.org/10.5281/zenodo.23791376) |
 
 ## Authors
 
