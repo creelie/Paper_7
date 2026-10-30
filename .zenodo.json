@@ -1,12 +1,12 @@
 {
   "title": "The sl(2) weight system at c = -3/32 extends to a graph 4-invariant: paper and checking programs",
   "upload_type": "software",
-  "description": "<p>Final revision of the paper, single column (amsart), 12 pages, with its LaTeX source and the programs that check its identities on small cases. The paper proves the conjecture of Fomichev, Karev, Pavutnitskiy and Usanov (arXiv:2607.24217, Section 4): the specialisation of the sl(2) weight system at c = -3/32 extends to a 4-invariant of graphs, xi(G) = (-32)^{-n} S_G(-2), where S_G(N) counts with signs the maps sending the vertices of G to 2-element subsets of {1, ..., N}. Every step is proved by hand; no statement rests on the programs.</p><p>An earlier and incomplete version appeared on Hexagon as hexagon:2610.00320. The earlier versions are archived under the concept DOI 10.5281/zenodo.23312529.</p>",
+  "description": "<p>Revision of 30 October 2026 of the paper, single column (amsart), 13 pages, with its LaTeX source and the programs that check its identities on small cases. The paper proves the conjecture of Fomichev, Karev, Pavutnitskiy and Usanov (arXiv:2607.24217, Section 4): the specialisation of the sl(2) weight system at c = -3/32 extends to a 4-invariant of graphs, xi(G) = (-32)^{-n} S_G(-2), where S_G(N) counts with signs the maps sending the vertices of G to 2-element subsets of {1, ..., N}. Every step is proved by hand; no statement rests on the programs. It also proves that for every N the spin representation of so(N) gives the weight system (-4)^{-n} S_G(N); at N = 3 this shows directly that the colouring invariant of Fomichev and Karev extends the sl(2) weight system at c = 3/8.</p><p>An earlier and incomplete version appeared on Hexagon as hexagon:2610.00320. The earlier versions are archived under the concept DOI 10.5281/zenodo.23312529.</p>",
   "creators": [
     {
       "name": "Bhattacharjee, Deep",
       "orcid": "0000-0003-0466-750X",
-      "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India; Formerly, University of Calcutta, Senate House, 87/1 College Street, Kolkata 700073, West Bengal, India"
+      "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India; Formerly, University of Calcutta (Heramba Chandra College), 23/49 Gariahat Road, Golpark, Kolkata 700029, West Bengal, India"
     },
     {
       "name": "Bhattacharya, Ushashi",
@@ -26,9 +26,26 @@
   ],
   "license": "mit-license",
   "related_identifiers": [
-    {"identifier": "arXiv:2607.24217", "relation": "references", "scheme": "arxiv"},
-    {"identifier": "https://hexagonmath.org/2610.00320", "scheme": "url", "relation": "isNewVersionOf"},
-    {"identifier": "10.5281/zenodo.23312529", "scheme": "doi", "relation": "isNewVersionOf"}
+    {
+      "identifier": "https://hexagonmath.org/2610.00320v2",
+      "scheme": "url",
+      "relation": "isNewVersionOf"
+    },
+    {
+      "identifier": "arXiv:2607.24217",
+      "relation": "references",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "https://hexagonmath.org/2610.00320",
+      "scheme": "url",
+      "relation": "isNewVersionOf"
+    },
+    {
+      "identifier": "10.5281/zenodo.23312529",
+      "scheme": "doi",
+      "relation": "isNewVersionOf"
+    }
   ],
   "access_right": "open"
 }
