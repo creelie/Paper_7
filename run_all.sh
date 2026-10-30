@@ -18,6 +18,7 @@ done
 step "Python"
 python3 -I "$ROOT/checks/python/check.py"
 python3 -I "$ROOT/checks/python/proof_steps.py"
+python3 -I "$ROOT/checks/python/spinor_check.py"
 
 step "Julia"
 julia "$ROOT/checks/julia/check.jl"
